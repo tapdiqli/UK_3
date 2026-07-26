@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --page-max-width: 80rem; /* matches Tailwind max-w-7xl */
+  --page-gutter: 1rem;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  --font-display: "Playfair Display", "Iowan Old Style", Georgia, "Times New Roman",
+    serif;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --page-gutter: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --page-gutter: 2rem;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink-900 text-white/85 antialiased;
+    font-feature-settings: "ss01", "cv01";
+  }
+
+  ::selection {
+    @apply bg-ruby text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-white;
+    text-wrap: balance;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+}
+
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: var(--page-max-width);
+    margin-inline: auto;
+    padding-inline: var(--page-gutter);
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold tracking-wide transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-ruby focus-visible:ring-offset-2 focus-visible:ring-offset-ink-900;
+  }
+
+  .btn-primary {
+    @apply btn bg-ruby text-white shadow-ruby hover:bg-ruby-light active:translate-y-px;
+  }
+
+  .btn-outline {
+    @apply btn border border-white/15 bg-white/5 text-white hover:border-ruby/60 hover:bg-white/10;
+  }
+
+  .btn-ghost {
+    @apply btn text-white/70 hover:text-white;
+  }
+
+  .card {
+    @apply rounded-2xl border border-white/8 bg-ink-800/60 shadow-card backdrop-blur;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-ruby-light;
+  }
+
+  .link-underline {
+    @apply relative text-white/70 hover:text-white;
+  }
+}
+
+/* Age gate: verified visitors skip the overlay and keep normal scrolling.
+   The flag is set pre-hydration, so neither state flashes. */
+html:not([data-age-verified="1"]) body {
+  overflow: hidden;
+}
+
+html[data-age-verified="1"] #age-gate {
+  display: none;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-noise {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 3px 3px;
+  }
+}

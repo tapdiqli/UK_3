@@ -1,0 +1,323 @@
+{
+  "site": {
+    "name": "BestBritCasinoList",
+    "domain": "bestbritcasinolist.com",
+    "url": "https://bestbritcasinolist.com",
+    "tagline": "Independent UK Casino Reviews & Comparison",
+    "description": "BestBritCasinoList is an independent comparison platform reviewing UK Gambling Commission licensed online casinos. Compare bonuses, games and safety ratings. 18+ only. Please gamble responsibly.",
+    "country": "United Kingdom",
+    "language": "en-GB",
+    "currency": "GBP",
+    "email": "hello@bestbritcasinolist.com",
+    "established": "2024",
+    "minAge": 18
+  },
+  "nav": [
+    {
+      "label": "Top Casinos",
+      "href": "/casinos"
+    },
+    {
+      "label": "Bonuses",
+      "href": "/bonuses"
+    },
+    {
+      "label": "Guides",
+      "href": "/guides"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Responsible Gambling",
+      "href": "/responsible-gambling"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "brands": [
+    {
+      "id": "midnite",
+      "slug": "midnite-casino",
+      "name": "Midnite Casino",
+      "logo": "/brands/midnite.svg",
+      "logoColor": "#00FF66",
+      "accentColor": "#0A0A0A",
+      "tagline": "Player-first casino play with clear, fair offers",
+      "established": 2020,
+      "licences": [
+        "UK Gambling Commission"
+      ],
+      "ratings": {
+        "overall": 4.7,
+        "games": 4.6,
+        "bonuses": 4.8,
+        "support": 4.5,
+        "mobile": 4.7,
+        "safety": 4.7
+      },
+      "bonus": {
+        "headline": "Welcome Bonus",
+        "amount": "Wager £20, Get 150 Free Spins",
+        "details": "18+ New customers only. Wager £20 or more on Midnite Casino within 14 days of sign-up. Get 150 Free Spins to use on selected games, valued at 10p and valid for 7 days. T&Cs apply. BeGambleAware.org",
+        "wagering": "See T&Cs",
+        "minDeposit": "£20",
+        "expiryDays": 14
+      },
+      "highlights": [
+        "150 free spins welcome offer",
+        "UK Gambling Commission licensed",
+        "Clear, fair bonus terms"
+      ],
+      "gameCount": 1800,
+      "gameTypes": [
+        "Slots",
+        "Live Casino",
+        "Table Games",
+        "Jackpots"
+      ],
+      "minDeposit": "£20",
+      "customerSupport": [
+        "24/7 Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "Strong free spins welcome package",
+        "Modern, mobile-friendly platform",
+        "Clear responsible gambling tools"
+      ],
+      "cons": [
+        "£20 entry amount on welcome offer",
+        "Spins limited to selected games"
+      ],
+      "reviewSummary": "Midnite Casino stands out with a straightforward wager-and-spins welcome offer and a slick UK-licensed gaming experience.",
+      "reviewBody": [
+        "Midnite Casino is a UK Gambling Commission licensed operator with a modern platform built around clear promotions and a strong game library.",
+        "Its headline welcome offer — wager £20 and get 150 free spins — is easy to understand, with spins valued at 10p and valid for 7 days on selected games.",
+        "Responsible gambling tools including spend limits, time-outs and GAMSTOP self-exclusion are available, and new customers should always review the full terms before claiming."
+      ],
+      "featured": true,
+      "rank": 1,
+      "visitUrl": "https://www.midnite.com/"
+    },
+    {
+      "id": "lottogo",
+      "slug": "lottogo",
+      "name": "LottoGo",
+      "logo": "/brands/lottogo.webp",
+      "logoColor": "#7C3AED",
+      "accentColor": "#A78BFA",
+      "tagline": "Casino thrills with a lottery twist",
+      "established": 2018,
+      "licences": [
+        "UK Gambling Commission"
+      ],
+      "ratings": {
+        "overall": 4.5,
+        "games": 4.4,
+        "bonuses": 4.6,
+        "support": 4.3,
+        "mobile": 4.5,
+        "safety": 4.4
+      },
+      "bonus": {
+        "headline": "Welcome Bonus",
+        "amount": "100% Up to £200 Bonus + 120 Free Spins",
+        "details": "18+. New Players Only. GambleAware.org Minimum Deposit £20, 10x Wagering in 7 days, Max Bet £5, Max Win applies, Spin value £0.1 each. 60 spins added immediately, 60-24h later. Full T&Cs apply. Take time to think",
+        "wagering": "10x bonus",
+        "minDeposit": "£20",
+        "expiryDays": 7
+      },
+      "highlights": [
+        "100% match up to £200",
+        "120 free spins included",
+        "UK Gambling Commission licensed"
+      ],
+      "gameCount": 1600,
+      "gameTypes": [
+        "Slots",
+        "Live Casino",
+        "Lottery Games",
+        "Table Games"
+      ],
+      "minDeposit": "£20",
+      "customerSupport": [
+        "Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "Generous match bonus plus free spins",
+        "10x wagering on the bonus",
+        "Spins split across two days"
+      ],
+      "cons": [
+        "£20 entry amount on welcome offer",
+        "Max bet and max win limits apply"
+      ],
+      "reviewSummary": "LottoGo combines a sizeable 100% match bonus with 120 free spins, making it a strong pick for new UK players.",
+      "reviewBody": [
+        "LottoGo is a UKGC-licensed brand offering both casino and lottery-style entertainment under one roof.",
+        "New players can claim a 100% bonus up to £200 plus 120 free spins, with 60 spins credited immediately and another 60 after 24 hours. Spin value is £0.10 each.",
+        "A 10x wagering requirement applies within 7 days, with a £5 max bet — terms are clearly stated and players should read them in full before opting in."
+      ],
+      "featured": true,
+      "rank": 2,
+      "visitUrl": "https://www.lottogo.com/"
+    },
+    {
+      "id": "mrq",
+      "slug": "mrq",
+      "name": "MrQ",
+      "logo": "/brands/mrq.webp",
+      "logoColor": "#FFFFFF",
+      "accentColor": "#C1121F",
+      "tagline": "No-wagering free spins for new UK players",
+      "established": 2017,
+      "licences": [
+        "UK Gambling Commission"
+      ],
+      "ratings": {
+        "overall": 4.9,
+        "games": 4.8,
+        "bonuses": 4.9,
+        "support": 4.7,
+        "mobile": 4.8,
+        "safety": 4.8
+      },
+      "bonus": {
+        "headline": "Welcome Bonus",
+        "amount": "200 Free Spins (No Wagering)",
+        "details": "First deposit only. Min deposit & spend £10. Max 200 spins on Fishin’ Frenzy Even Bigger Fish 3 Megaways Rapid Fire. 10p per spin. Spins credited upon spend of £10. 18+ Full T&Cs apply.",
+        "wagering": "No wagering",
+        "minDeposit": "£10",
+        "expiryDays": 30
+      },
+      "highlights": [
+        "200 free spins with no wagering",
+        "UK Gambling Commission licensed",
+        "Player-friendly welcome terms"
+      ],
+      "gameCount": 2000,
+      "gameTypes": [
+        "Slots",
+        "Live Casino",
+        "Table Games",
+        "Jackpots"
+      ],
+      "minDeposit": "£10",
+      "customerSupport": [
+        "24/7 Live Chat",
+        "Email"
+      ],
+      "pros": [
+        "No-wagering free spins offer",
+        "Accessible £10 entry amount",
+        "Strong UK player reputation"
+      ],
+      "cons": [
+        "Spins limited to a selected game",
+        "First deposit only"
+      ],
+      "reviewSummary": "MrQ leads with a standout no-wagering 200 free spins welcome offer and a polished UK-licensed casino experience.",
+      "reviewBody": [
+        "MrQ is a UK Gambling Commission licensed casino known for player-friendly promotions and a clean modern platform.",
+        "Its headline welcome offer gives new players 200 free spins with no wagering after a £10 entry spend — spins are credited on Fishin’ Frenzy Even Bigger Fish 3 Megaways Rapid Fire at 10p per spin.",
+        "Responsible gambling tools are available, and as always the full terms apply. 18+ only — please play responsibly via BeGambleAware.org."
+      ],
+      "featured": true,
+      "rank": 3,
+      "visitUrl": "https://mrq.com/"
+    }
+  ],
+  "guides": [
+    {
+      "slug": "how-we-review-uk-casinos",
+      "title": "How We Review UK Online Casinos",
+      "category": "Methodology",
+      "excerpt": "The exact criteria we use to test, score and rank every UK casino — from licensing checks to bonus fairness.",
+      "readTime": "6 min read",
+      "updated": "2026-06-01",
+      "body": [
+        "Every casino featured on BestBritCasinoList is independently assessed against a fixed set of criteria. We never rank a site higher in exchange for commercial terms, and our scoring methodology is applied consistently across all brands.",
+        "Licensing comes first. We only list operators that hold a valid UK Gambling Commission licence, and we verify the licence number directly on the Commission's public register before publishing.",
+        "We then score each casino across weighted categories: game selection, bonus value and fairness, customer support quality, mobile experience and overall safety. Each category is tested using real accounts.",
+        "Bonus terms are reviewed in full. We look for clear wagering requirements, fair restrictions and transparent expiry windows — not just the headline figure.",
+        "Finally, we assess responsible gambling provision. Sites that make spend limits, time-outs and GAMSTOP self-exclusion easy to find score higher. Any operator that obstructs these tools is removed from our list."
+      ]
+    },
+    {
+      "slug": "understanding-wagering-requirements",
+      "title": "Understanding Wagering Requirements",
+      "category": "Bonuses",
+      "excerpt": "Wagering requirements decide whether a bonus is actually worth claiming. Here's how to read them like a pro.",
+      "readTime": "5 min read",
+      "updated": "2026-05-18",
+      "body": [
+        "A wagering requirement (sometimes called a playthrough) is the number of times you must bet a bonus before any associated winnings become available to use. A '35x bonus' requirement on a £10 bonus means £350 of wagering.",
+        "Lower is better. A 20x requirement is far easier to clear than a 45x one, even if the headline bonus amount looks smaller. Always compare wagering, not just the percentage match.",
+        "Check what counts towards wagering. Slots usually contribute 100%, but table games and live casino often contribute far less — sometimes as little as 10% or nothing at all.",
+        "Watch for maximum bet limits while a bonus is active, and note the expiry period. A short window with high wagering can be unrealistic to clear.",
+        "Our golden rule: only claim a bonus you'd be comfortable playing through at your normal stakes. A bonus should add value, never pressure you to bet more than you intended."
+      ]
+    },
+    {
+      "slug": "safe-and-responsible-gambling",
+      "title": "Safe & Responsible Gambling in the UK",
+      "category": "Safety",
+      "excerpt": "Practical tools and free support services that help keep gambling fun and firmly under your control.",
+      "readTime": "7 min read",
+      "updated": "2026-06-10",
+      "body": [
+        "Gambling should always be entertainment, never a way to make money or escape problems. Every UKGC-licensed casino is required to provide tools that help you stay in control.",
+        "Set a deposit limit before you start. Daily, weekly and monthly limits can be configured in your account and act as a hard ceiling on spending.",
+        "Use reality checks and time-outs. A reality check reminds you how long you've been playing; a time-out locks your account for a chosen period, from 24 hours to six weeks.",
+        "If you need a longer break, GAMSTOP lets you self-exclude from all UK-licensed online gambling sites in one step, for six months, one year or five years, free of charge.",
+        "Free, confidential support is available any time from GamCare on 0808 8020 133 and via BeGambleAware.org. If gambling is no longer fun, these services can help — there is no cost and no judgement."
+      ]
+    },
+    {
+      "slug": "how-to-choose-a-safe-uk-casino",
+      "title": "How to Choose a Safe UK Casino",
+      "category": "Safety",
+      "excerpt": "A practical checklist for picking a UKGC-licensed casino you can trust — licensing, bonuses, games and support.",
+      "readTime": "5 min read",
+      "updated": "2026-05-30",
+      "body": [
+        "Choosing a UK online casino should start with safety, not flashy bonus figures. Every operator we list holds a UK Gambling Commission licence, which you can verify on the Commission's public register.",
+        "Look for clear bonus terms. A strong headline offer means little if wagering, game restrictions or expiry windows are buried in the small print — always read the full terms before you claim.",
+        "Game variety matters too. A good site offers slots, table games and live casino options from reputable studios, with a platform that works smoothly on mobile and desktop.",
+        "Customer support should be easy to reach. Prefer casinos with live chat and a clear help centre so you can resolve questions quickly.",
+        "Finally, check that responsible gambling tools are easy to find: spend limits, reality checks, time-outs and GAMSTOP self-exclusion. If these are hard to locate, look elsewhere."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is BestBritCasinoList a casino?",
+      "answer": "No. We are an independent comparison and review website. We do not operate any gambling services. We help UK players compare licensed casinos and then link out to the operator's own site."
+    },
+    {
+      "question": "Are all the casinos you list licensed in the UK?",
+      "answer": "Yes. We only feature operators that hold a valid UK Gambling Commission licence, which we verify on the Commission's public register before listing. Casinos must be legally permitted to offer services to players in Great Britain."
+    },
+    {
+      "question": "How do you make money?",
+      "answer": "We may earn a commission when a reader signs up with a casino through one of our links. This never affects our editorial scores or rankings, which are based solely on our independent testing methodology."
+    },
+    {
+      "question": "Do I have to be a certain age to gamble?",
+      "answer": "Yes. You must be 18 or over to gamble in the UK. All operators we list enforce strict age verification, and our website is intended only for adults aged 18 and above."
+    },
+    {
+      "question": "What should I do if gambling stops being fun?",
+      "answer": "Free, confidential help is always available. Contact GamCare on 0808 8020 133, visit BeGambleAware.org, or self-exclude from all UK-licensed sites through GAMSTOP. Every casino we list also offers spend limits, time-outs and self-exclusion tools."
+    },
+    {
+      "question": "Are your reviews independent?",
+      "answer": "Yes. Every casino is scored against the same fixed criteria using real accounts. Commercial relationships never influence a brand's rating or position in our rankings."
+    }
+  ]
+}

@@ -33,13 +33,7 @@ export function BrandCard({ brand, index, variant = "row" }: BrandCardProps) {
         className="card group flex flex-col gap-3 p-4 transition-transform hover:-translate-y-1"
       >
         <div className="flex items-center justify-between gap-3">
-          <BrandLogo
-            name={brand.name}
-            color={brand.logoColor}
-            accent={brand.accentColor}
-            logo={brand.logo}
-            size="sm"
-          />
+          <BrandLogo name={brand.name} seed={brand.rank} size="sm" />
           <div className="flex flex-col items-end">
             <Rating value={stars} score={rating} variant="split" orientation="vertical" size="sm" />
           </div>
@@ -75,13 +69,7 @@ export function BrandCard({ brand, index, variant = "row" }: BrandCardProps) {
       <div className="flex flex-col gap-3 md:hidden">
         <div className="flex items-center justify-between gap-3">
           <div>
-            <BrandLogo
-              name={brand.name}
-              color={brand.logoColor}
-              accent={brand.accentColor}
-              logo={brand.logo}
-              size="card"
-            />
+            <BrandLogo name={brand.name} seed={brand.rank} size="card" />
           </div>
           <div className="flex flex-col items-end">
             <Rating
@@ -123,13 +111,7 @@ export function BrandCard({ brand, index, variant = "row" }: BrandCardProps) {
                 {String(order).padStart(2, "0")}
               </span>
             </div>
-            <BrandLogo
-              name={brand.name}
-              color={brand.logoColor}
-              accent={brand.accentColor}
-              logo={brand.logo}
-              size="card"
-            />
+            <BrandLogo name={brand.name} seed={brand.rank} size="card" />
             <h3 className="sr-only">{brand.name}</h3>
           </div>
 

@@ -84,13 +84,7 @@ export function Hero() {
                       >
                         {order}
                       </span>
-                      <BrandLogo
-                        name={brand.name}
-                        color={brand.logoColor}
-                        accent={brand.accentColor}
-                        logo={brand.logo}
-                        size="sm"
-                      />
+                      <BrandLogo name={brand.name} seed={brand.rank} size="sm" />
                       <div className="min-w-0 flex-1">
                         <div className="flex items-center gap-2">
                           <p className="truncate text-sm font-semibold text-white">{brand.name}</p>

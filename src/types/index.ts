@@ -40,9 +40,6 @@ export interface Brand {
   id: string;
   slug: string;
   name: string;
-  logo?: string;
-  logoColor: string;
-  accentColor: string;
   tagline: string;
   established: number;
   licences: string[];

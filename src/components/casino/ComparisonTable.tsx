@@ -35,13 +35,7 @@ export function ComparisonTable({ brands }: ComparisonTableProps) {
                   </td>
                   <td className="px-4 py-4">
                     <div className="flex items-center gap-3">
-                      <BrandLogo
-                        name={brand.name}
-                        color={brand.logoColor}
-                        accent={brand.accentColor}
-                        logo={brand.logo}
-                        size="sm"
-                      />
+                      <BrandLogo name={brand.name} seed={brand.rank} size="sm" />
                       <div>
                         <p className="font-semibold text-white">{brand.name}</p>
                         <p className="text-xs text-white/45">Est. {brand.established}</p>

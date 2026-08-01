@@ -43,9 +43,6 @@
       "id": "midnite",
       "slug": "midnite-casino",
       "name": "Midnite Casino",
-      "logo": "/brands/midnite.svg",
-      "logoColor": "#00FF66",
-      "accentColor": "#0A0A0A",
       "tagline": "Player-first casino play with clear, fair offers",
       "established": 2020,
       "licences": [
@@ -107,9 +104,6 @@
       "id": "lottogo",
       "slug": "lottogo",
       "name": "LottoGo",
-      "logo": "/brands/lottogo.webp",
-      "logoColor": "#7C3AED",
-      "accentColor": "#A78BFA",
       "tagline": "Casino thrills with a lottery twist",
       "established": 2018,
       "licences": [
@@ -171,9 +165,6 @@
       "id": "mrq",
       "slug": "mrq",
       "name": "MrQ",
-      "logo": "/brands/mrq.webp",
-      "logoColor": "#FFFFFF",
-      "accentColor": "#C1121F",
       "tagline": "No-wagering free spins for new UK players",
       "established": 2017,
       "licences": [

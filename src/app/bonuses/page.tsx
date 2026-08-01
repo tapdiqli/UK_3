@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getBrands } from "@/lib/data";
 import { PageHero } from "@/components/layout/PageHero";
-import { BrandLogo } from "@/components/casino/BrandLogo";
+import { BrandLogo, decoPalette } from "@/components/casino/BrandLogo";
 import { AffiliateLink } from "@/components/casino/AffiliateLink";
 import { Rating } from "@/components/ui/Rating";
 import { DisclosureBanner } from "@/components/sections/DisclosureBanner";
@@ -33,6 +33,7 @@ export default function BonusesPage() {
         <div className="grid gap-6 lg:grid-cols-3">
           {brands.map((brand, index) => {
             const { order, rating, stars, badge } = getPositionMetrics(index);
+            const palette = decoPalette(brand.rank);
 
             return (
               <AffiliateLink
@@ -48,7 +49,7 @@ export default function BonusesPage() {
                 <div
                   className="h-1.5 w-full"
                   style={{
-                    background: `linear-gradient(90deg, ${brand.logoColor}, ${brand.accentColor})`,
+                    background: `linear-gradient(90deg, ${palette.jewel}, ${palette.gold})`,
                   }}
                 />
 
@@ -75,13 +76,7 @@ export default function BonusesPage() {
                     </p>
                   </div>
 
-                  <BrandLogo
-                    name={brand.name}
-                    color={brand.logoColor}
-                    accent={brand.accentColor}
-                    logo={brand.logo}
-                    size="card"
-                  />
+                  <BrandLogo name={brand.name} seed={brand.rank} size="card" />
 
                   <Rating
                     value={stars}

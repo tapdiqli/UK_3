@@ -17,16 +17,6 @@ export interface NavItem {
   href: string;
 }
 
-export interface BonusOffer {
-  headline: string;
-  amount: string;
-  details: string;
-  wagering: string;
-  minDeposit: string;
-  bonusCode?: string;
-  expiryDays: number;
-}
-
 export interface Ratings {
   overall: number;
   games: number;
@@ -40,11 +30,12 @@ export interface Brand {
   id: string;
   slug: string;
   name: string;
+  /** Short editorial verdict shown next to the brand instead of offer copy. */
+  review: string;
   tagline: string;
   established: number;
   licences: string[];
   ratings: Ratings;
-  bonus: BonusOffer;
   highlights: string[];
   gameCount: number;
   gameTypes: string[];

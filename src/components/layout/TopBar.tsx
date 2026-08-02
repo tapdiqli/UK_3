@@ -6,7 +6,8 @@ export function TopBar() {
       <div className="container-page flex items-center justify-center gap-2 py-1.5 text-center text-[11px] font-medium tracking-wide sm:text-xs">
         <ShieldIcon className="hidden h-3.5 w-3.5 sm:block" />
         <span>
-          18+ only. Gambling can be addictive — please play responsibly. Free help at{" "}
+          For adults only (18+). This content is meant for a calm, informed read — play in
+          moderation and always keep a healthy distance. Free help at{" "}
           <a
             href="https://www.begambleaware.org"
             target="_blank"

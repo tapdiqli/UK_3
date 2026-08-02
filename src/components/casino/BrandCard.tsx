@@ -2,7 +2,7 @@ import type { Brand } from "@/types";
 import { BrandLogo } from "@/components/casino/BrandLogo";
 import { AffiliateLink } from "@/components/casino/AffiliateLink";
 import { Rating } from "@/components/ui/Rating";
-import { ArrowRightIcon, GiftIcon, ShieldIcon } from "@/components/ui/Icons";
+import { ArrowRightIcon, ShieldIcon } from "@/components/ui/Icons";
 import { getPositionMetrics } from "@/lib/ratings";
 import { cn } from "@/lib/utils";
 
@@ -39,9 +39,11 @@ export function BrandCard({ brand, index, variant = "row" }: BrandCardProps) {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <p className="text-center text-sm font-bold text-white">{brand.bonus.amount}</p>
+          <p className="text-center text-sm font-medium leading-snug text-white/80">
+            {brand.review}
+          </p>
           <span className="btn-primary pointer-events-none w-full !px-3 !py-2 text-xs">
-            Get Bonus
+            Visit Site
           </span>
         </div>
       </AffiliateLink>
@@ -52,7 +54,7 @@ export function BrandCard({ brand, index, variant = "row" }: BrandCardProps) {
     <AffiliateLink
       href={brand.visitUrl}
       variant="card"
-      ariaLabel={`Visit ${brand.name} — ${brand.bonus.amount}`}
+      ariaLabel={`Visit ${brand.name}`}
       className={cn(
         "card group relative flex flex-col gap-3 overflow-hidden p-4 transition-colors hover:border-ruby/35 sm:gap-4 sm:p-5",
         order === 1 && "ring-1 ring-ruby/40",
@@ -83,8 +85,8 @@ export function BrandCard({ brand, index, variant = "row" }: BrandCardProps) {
         </div>
 
         <div className="flex flex-col gap-2.5">
-          <p className="text-center text-base font-bold leading-snug text-white">
-            {brand.bonus.amount}
+          <p className="text-center text-sm font-medium leading-relaxed text-white/80">
+            {brand.review}
           </p>
           <span className="btn-primary pointer-events-none w-full">
             Visit Site
@@ -115,16 +117,13 @@ export function BrandCard({ brand, index, variant = "row" }: BrandCardProps) {
             <h3 className="sr-only">{brand.name}</h3>
           </div>
 
-          {/* Bonus */}
+          {/* Editorial verdict */}
           <div className="col-span-3">
             <div className="rounded-xl border border-white/8 bg-ink-900/60 p-3 text-center">
-              <p className="flex items-center justify-center gap-1.5 text-[11px] uppercase tracking-widest text-ruby-light">
-                <GiftIcon className="h-3.5 w-3.5" /> {brand.bonus.headline}
+              <p className="text-[11px] uppercase tracking-widest text-ruby-light">Our verdict</p>
+              <p className="mt-1.5 text-sm font-medium leading-relaxed text-white/85">
+                {brand.review}
               </p>
-              <p className="mt-1 text-lg font-bold leading-snug text-white lg:text-xl">
-                {brand.bonus.amount}
-              </p>
-              <p className="mt-0.5 text-[11px] text-white/45">Wagering {brand.bonus.wagering}</p>
             </div>
           </div>
 

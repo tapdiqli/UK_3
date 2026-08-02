@@ -87,7 +87,7 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="At a glance"
           title="Side-by-side comparison"
-          description="The essential numbers for our top-rated casinos in one scannable table."
+          description="Our top-rated casinos side by side in one scannable table."
         />
         <div className="mt-8">
           <ComparisonTable brands={brands.slice(0, 6)} />

@@ -9,7 +9,7 @@ import { ResponsibleGamblingCTA } from "@/components/sections/ResponsibleGamblin
 export const metadata: Metadata = {
   title: "Top UK Online Casinos — Ranked & Compared",
   description:
-    "Compare the best UK Gambling Commission licensed online casinos. Independent ratings for bonuses, games and safety. 18+ | begambleaware.org.",
+    "Compare the best UK Gambling Commission licensed online casinos. Independent ratings for quality, games and safety. 18+ | begambleaware.org.",
   alternates: { canonical: "/casinos" },
 };
 
@@ -21,7 +21,7 @@ export default function CasinosPage() {
       <PageHero
         eyebrow="Casino rankings"
         title="Top UK online casinos, compared"
-        description="All licensed by the UK Gambling Commission and independently rated. Compare bonuses, games and safety before you decide."
+        description="All licensed by the UK Gambling Commission and independently rated. Compare quality, games and safety before you decide."
         crumbs={[{ label: "Home", href: "/" }, { label: "Top Casinos" }]}
       />
 

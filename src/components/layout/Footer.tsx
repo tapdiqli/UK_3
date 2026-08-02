@@ -8,7 +8,6 @@ const footerNav = [
     title: "Casinos",
     links: [
       { label: "Top UK Casinos", href: "/casinos" },
-      { label: "Casino Bonuses", href: "/bonuses" },
     ],
   },
   {

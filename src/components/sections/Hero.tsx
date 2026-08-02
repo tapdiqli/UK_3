@@ -31,15 +31,15 @@ export function Hero() {
             <span className="text-ruby-light">best online casinos</span>, honestly ranked
           </h1>
           <p className="mt-2 max-w-xl text-sm leading-relaxed text-white/60 lg:text-[15px]">
-            We test every UK Gambling Commission licensed casino for bonus value, game selection and
+            We test every UK Gambling Commission licensed casino for quality, game selection and
             safety — so you can compare the top sites in seconds.
           </p>
           <div className="mt-3.5 flex flex-wrap gap-2.5">
             <Link href="/casinos" className="btn-primary !px-4 !py-2 text-xs">
               See all casinos <ArrowRightIcon className="h-3.5 w-3.5" />
             </Link>
-            <Link href="/bonuses" className="btn-outline !px-4 !py-2 text-xs">
-              Compare bonuses
+            <Link href="/guides" className="btn-outline !px-4 !py-2 text-xs">
+              Read our guides
             </Link>
           </div>
           <ul className="mt-3.5 hidden flex-wrap gap-x-5 gap-y-1.5 lg:flex">
@@ -96,10 +96,10 @@ export function Hero() {
                             showValue={false}
                           />
                         </div>
-                        <p className="truncate text-[11px] text-white/55">{brand.bonus.amount}</p>
+                        <p className="truncate text-[11px] text-white/55">{brand.review}</p>
                       </div>
                       <span className="btn-primary pointer-events-none !px-2.5 !py-1 text-[11px]">
-                        Get
+                        Visit
                       </span>
                     </AffiliateLink>
                   </li>
@@ -107,7 +107,7 @@ export function Hero() {
               })}
             </ol>
             <p className="mt-2 text-center text-[10px] text-white/40">
-              18+ | New customers only | T&amp;Cs apply | begambleaware.org
+              18+ | T&amp;Cs apply | begambleaware.org
             </p>
           </div>
         </div>

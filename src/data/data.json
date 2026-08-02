@@ -18,10 +18,6 @@
       "href": "/casinos"
     },
     {
-      "label": "Bonuses",
-      "href": "/bonuses"
-    },
-    {
       "label": "Guides",
       "href": "/guides"
     },
@@ -43,6 +39,7 @@
       "id": "midnite",
       "slug": "midnite-casino",
       "name": "Midnite Casino",
+      "review": "A fresh, modern name that bets everything on a sleek, mobile-first playing experience.",
       "tagline": "Player-first casino play with clear, fair offers",
       "established": 2020,
       "licences": [
@@ -56,18 +53,10 @@
         "mobile": 4.7,
         "safety": 4.7
       },
-      "bonus": {
-        "headline": "Welcome Bonus",
-        "amount": "Wager £20, Get 150 Free Spins",
-        "details": "18+ New customers only. Wager £20 or more on Midnite Casino within 14 days of sign-up. Get 150 Free Spins to use on selected games, valued at 10p and valid for 7 days. T&Cs apply. BeGambleAware.org",
-        "wagering": "See T&Cs",
-        "minDeposit": "£20",
-        "expiryDays": 14
-      },
       "highlights": [
-        "150 free spins welcome offer",
-        "UK Gambling Commission licensed",
-        "Clear, fair bonus terms"
+        "Sleek, mobile-first design",
+        "Casino and sport in one account",
+        "UKGC licensed"
       ],
       "gameCount": 1800,
       "gameTypes": [
@@ -76,25 +65,23 @@
         "Table Games",
         "Jackpots"
       ],
-      "minDeposit": "£20",
       "customerSupport": [
         "24/7 Live Chat",
         "Email"
       ],
       "pros": [
-        "Strong free spins welcome package",
-        "Modern, mobile-friendly platform",
-        "Clear responsible gambling tools"
+        "Modern, fast interface",
+        "Clear responsible-play tools",
+        "Casino and sportsbook together"
       ],
       "cons": [
-        "£20 entry amount on welcome offer",
-        "Spins limited to selected games"
+        "Younger brand with shorter track record"
       ],
-      "reviewSummary": "Midnite Casino stands out with a straightforward wager-and-spins welcome offer and a slick UK-licensed gaming experience.",
+      "reviewSummary": "Midnite Casino stands out with a sleek, modern design and a slick UK-licensed gaming experience built for mobile.",
       "reviewBody": [
-        "Midnite Casino is a UK Gambling Commission licensed operator with a modern platform built around clear promotions and a strong game library.",
-        "Its headline welcome offer — wager £20 and get 150 free spins — is easy to understand, with spins valued at 10p and valid for 7 days on selected games.",
-        "Responsible gambling tools including spend limits, time-outs and GAMSTOP self-exclusion are available, and new customers should always review the full terms before claiming."
+        "Midnite feels like a casino designed for the phone-first generation: the lobby is fast, uncluttered and easy to navigate one-handed.",
+        "Alongside the casino sits a full sportsbook, so players who like to switch between the two never need a second account.",
+        "Responsible-play tools are easy to find, and the overall presentation is among the most modern we have tested."
       ],
       "featured": true,
       "rank": 1,
@@ -104,6 +91,7 @@
       "id": "lottogo",
       "slug": "lottogo",
       "name": "LottoGo",
+      "review": "A familiar favourite that keeps everyday play simple, light and approachable.",
       "tagline": "Casino thrills with a lottery twist",
       "established": 2018,
       "licences": [
@@ -117,18 +105,10 @@
         "mobile": 4.5,
         "safety": 4.4
       },
-      "bonus": {
-        "headline": "Welcome Bonus",
-        "amount": "100% Up to £200 Bonus + 120 Free Spins",
-        "details": "18+. New Players Only. GambleAware.org Minimum Deposit £20, 10x Wagering in 7 days, Max Bet £5, Max Win applies, Spin value £0.1 each. 60 spins added immediately, 60-24h later. Full T&Cs apply. Take time to think",
-        "wagering": "10x bonus",
-        "minDeposit": "£20",
-        "expiryDays": 7
-      },
       "highlights": [
-        "100% match up to £200",
-        "120 free spins included",
-        "UK Gambling Commission licensed"
+        "Familiar, easy everyday play",
+        "Broad game selection",
+        "UKGC licensed"
       ],
       "gameCount": 1600,
       "gameTypes": [
@@ -137,25 +117,22 @@
         "Lottery Games",
         "Table Games"
       ],
-      "minDeposit": "£20",
       "customerSupport": [
         "Live Chat",
         "Email"
       ],
       "pros": [
-        "Generous match bonus plus free spins",
-        "10x wagering on the bonus",
-        "Spins split across two days"
+        "Approachable for newer players",
+        "Simple, clear layout",
+        "Wide variety of games"
       ],
       "cons": [
-        "£20 entry amount on welcome offer",
-        "Max bet and max win limits apply"
+        "Interface can feel busy at peak times"
       ],
-      "reviewSummary": "LottoGo combines a sizeable 100% match bonus with 120 free spins, making it a strong pick for new UK players.",
+      "reviewSummary": "LottoGo pairs a broad, approachable game selection with a simple everyday experience, making it a strong pick for new UK players.",
       "reviewBody": [
-        "LottoGo is a UKGC-licensed brand offering both casino and lottery-style entertainment under one roof.",
-        "New players can claim a 100% bonus up to £200 plus 120 free spins, with 60 spins credited immediately and another 60 after 24 hours. Spin value is £0.10 each.",
-        "A 10x wagering requirement applies within 7 days, with a £5 max bet — terms are clearly stated and players should read them in full before opting in."
+        "LottoGo keeps everyday play simple: the layout is familiar, games load quickly and nothing about the site gets in your way.",
+        "It will not win design awards, but its dependable, no-surprises experience is exactly why it remains a favourite with UK players."
       ],
       "featured": true,
       "rank": 2,
@@ -165,7 +142,8 @@
       "id": "mrq",
       "slug": "mrq",
       "name": "MrQ",
-      "tagline": "No-wagering free spins for new UK players",
+      "review": "A player-first pioneer whose lobby has been a fixture of the British web for years.",
+      "tagline": "Clean, mobile-first casino for UK players",
       "established": 2017,
       "licences": [
         "UK Gambling Commission"
@@ -178,18 +156,10 @@
         "mobile": 4.8,
         "safety": 4.8
       },
-      "bonus": {
-        "headline": "Welcome Bonus",
-        "amount": "200 Free Spins (No Wagering)",
-        "details": "First deposit only. Min deposit & spend £10. Max 200 spins on Fishin’ Frenzy Even Bigger Fish 3 Megaways Rapid Fire. 10p per spin. Spins credited upon spend of £10. 18+ Full T&Cs apply.",
-        "wagering": "No wagering",
-        "minDeposit": "£10",
-        "expiryDays": 30
-      },
       "highlights": [
-        "200 free spins with no wagering",
-        "UK Gambling Commission licensed",
-        "Player-friendly welcome terms"
+        "Snappy, clean lobby",
+        "Regularly refreshed game line-up",
+        "UKGC licensed"
       ],
       "gameCount": 2000,
       "gameTypes": [
@@ -198,25 +168,22 @@
         "Table Games",
         "Jackpots"
       ],
-      "minDeposit": "£10",
       "customerSupport": [
         "24/7 Live Chat",
         "Email"
       ],
       "pros": [
-        "No-wagering free spins offer",
-        "Accessible £10 entry amount",
-        "Strong UK player reputation"
+        "Excellent mobile experience",
+        "Quick, low-friction sign-up",
+        "Frequently updated lobby"
       ],
       "cons": [
-        "Spins limited to a selected game",
-        "First deposit only"
+        "Smaller table-game selection"
       ],
-      "reviewSummary": "MrQ leads with a standout no-wagering 200 free spins welcome offer and a polished UK-licensed casino experience.",
+      "reviewSummary": "MrQ leads with one of the sharpest, most polished lobbies on the British web and a smooth UK-licensed casino experience.",
       "reviewBody": [
-        "MrQ is a UK Gambling Commission licensed casino known for player-friendly promotions and a clean modern platform.",
-        "Its headline welcome offer gives new players 200 free spins with no wagering after a £10 entry spend — spins are credited on Fishin’ Frenzy Even Bigger Fish 3 Megaways Rapid Fire at 10p per spin.",
-        "Responsible gambling tools are available, and as always the full terms apply. 18+ only — please play responsibly via BeGambleAware.org."
+        "MrQ has quietly become one of the sharpest lobbies on the British web, with a clean design that puts games front and centre.",
+        "Sign-up is quick and verification is smooth, and the game line-up is refreshed often enough that regulars always find something new."
       ],
       "featured": true,
       "rank": 3,

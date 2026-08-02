@@ -9,8 +9,8 @@ export function DisclosureBanner() {
           <span className="font-semibold text-white/80">Advertising disclosure.</span>{" "}
           BestBritCasinoList is free to use. We may earn a commission if you sign up with an operator
           through our links. This never affects our independent ratings, which are based only on our
-          testing methodology. All offers are for new customers, 18+, and subject to the operator&apos;s
-          terms.
+          testing methodology. All content is intended for adults aged 18+ and is subject to the
+          operator&apos;s terms.
         </p>
       </div>
     </div>
